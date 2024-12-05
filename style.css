@@ -1,0 +1,75 @@
+body{
+
+    background-color: #24353F;
+}
+.container{
+    width: 70%;
+    
+
+}
+.log-in{
+    -webkit-box-shadow: 2px 9px 36px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 9px 36px 13px rgba(0,0,0,0.75);
+    box-shadow: 2px 9px 36px 13px rgba(0,0,0,0.75);
+}
+.log-in h1{
+    font-family: sans-serif;
+    color: #17A2B8;
+    font-size: 40px;
+    font-weight: 500;
+}
+.form-control:focus{
+   
+    box-shadow: none;
+    border-color: #F4F4F4;
+    background-color: transparent;
+    color: aqua;
+}
+.form-control{
+    background-color: transparent;
+    color: aqua;
+}
+.form-control::placeholder{
+    color: #CED4DA;
+}
+form button{
+    width: 100%;
+}
+.log-in p{
+    color: white;
+}
+.log-in a{
+    color: white;
+    text-decoration: none;
+}
+.log-in a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    -webkit-box-shadow: 1px 12px 14px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 12px 14px -2px rgba(0,0,0,0.75);
+    box-shadow: 1px 12px 14px -2px rgba(0,0,0,0.75);
+}
+.header h3{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.welcome{
+    height: 80vh;
+    
+}
+.welcome-body{
+    -webkit-box-shadow: -3px 5px 42px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 5px 42px 5px rgba(0,0,0,0.75);
+    box-shadow: -3px 5px 42px 5px rgba(0,0,0,0.75);
+    padding: 3% 20%;
+    color: #17A2B8;
+}
+.welcome-body h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}

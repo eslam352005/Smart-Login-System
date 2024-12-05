@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3/bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<section  id="theLog">
+    <div class="container my-3 py-3">
+        <div class="log-in  text-center my-5 py-4">
+    
+            <div class="title py-2">
+                <h1>Smart Login System</h1>
+            </div>
+            
+            <form class="w-75 mx-auto my-2" >
+               
+                    <div class="mb-3">
+                      <input oninput="validation(this)" id="logName" placeholder="Enter your name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div class="alert alert-danger py-1 d-none">Please enter a valid name! min 3 letters </div>
+                    </div>
+                    <div class="mb-3">
+                      <input oninput="validation(this)" id="Logemail" placeholder="Enter your email" type="text" class="form-control" id="exampleInputPassword1">
+                      <div class="alert alert-danger py-1 d-none">Please enter a valid email address (e.g., example@domain.com) and no repeat.</div>
+                    </div>
+                    <div class="mb-3">
+                      <input oninput="validation(this)" id="Logpassword" placeholder="Enter your password" type="password" class="form-control" id="exampleInputPassword1">
+                      <div class="alert alert-danger py-1 d-none">Password must be at least 8 characters long and include at least one letter and one number.</div>
+                    </div>
+                    <div id="success" class="alert alert-success py-1 d-none">Added succesfuly</div>
+                     <button type="button" id="upButton" class="btn btn-outline-info my-3">Sign Up </button>
+                     <button type="button" id="inButton" class="btn btn-outline-info my-3 d-none">Log in </button>
+                
+            
+            </form>
+            
+            <p >You have an account? <a id="inAnchor" href="">Signin</a></p>
+            <p  class="d-none">Don’t have an account? <a id="upAnchor" href="">Signup</a></p>
+           
+            </div>
+    </div>
+</section>
+
+<div class="welcomePage d-none" id="welcomePage">
+  <div class="header">
+    <div class="container p-2 d-flex justify-content-between">
+      
+      <div class="caption">
+        <h3>Smart Login</h3>
+      </div>
+      <div class="header-button">
+        <button id="logOut" class="btn btn-outline-warning">Logout</button>
+      </div>
+    </div>
+    </div>
+    
+    <div class="welcome d-flex justify-content-center align-items-center" >
+    
+    <div class="welcome-body" id="welcome">
+     
+    </div>
+    
+    </div>
+        
+</div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
